@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>404</title>
+</head>
+<body>
+    <div>404 Not Found asdasd</div>
+
+
+
+
+
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+
+        window.onload = function (params) {
+            axios.defaults.baseURL = 'http://127.0.0.1:5000';
+            axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+
+            axios.post('/api/user/login',{
+                username:"weidada",
+                password:123456    
+            })
+            .then(function(response) {
+                console.log(response);
+            });
+        }
+
+
+    </script>
+</body>
+</html>

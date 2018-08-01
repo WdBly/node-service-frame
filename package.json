@@ -1,0 +1,48 @@
+{
+  "name": "service-frame",
+  "version": "1.0.0",
+  "description": "node service frame",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "cross-env NODE_ENV=server PORT=5000 tsc && pm2 start server --name node_server --watch",
+    "start": "cross-env NODE_ENV=server PORT=5000 node server",
+    "watch": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WdBly/node-service-frame.git"
+  },
+  "keywords": [
+    "node",
+    "service"
+  ],
+  "author": "WdBly",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WdBly/node-service-frame/issues"
+  },
+  "homepage": "https://github.com/WdBly/node-service-frame#readme",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-plugin-add-module-exports": "^0.2.1",
+    "babel-plugin-import": "^1.8.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.2.0",
+    "koa": "^2.5.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-logger": "^3.2.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.1.4",
+    "log4js": "^3.0.3"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.46",
+    "tslint": "^5.11.0",
+    "typescript": "^3.0.1"
+  }
+}

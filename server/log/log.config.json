@@ -1,0 +1,36 @@
+{
+    "appenders": {
+        "fileError": {
+            "type": "dateFile",
+            "filename": "logs/node_service_frame.error.log",
+            "alwaysIncludePattern": true,
+            "pattern": "-yyyy-MM-dd.log",
+            "encoding": "utf-8",
+            "maxLogSize": "3 * 1024 * 1024"
+        },
+        "fileSuccess": {
+            "type": "dateFile",
+            "filename": "logs/node_service_frame.info.log",
+            "alwaysIncludePattern": true,
+            "pattern": "-yyyy-MM-dd.log",
+            "encoding": "utf-8"
+        },
+        "console": {
+            "type": "console"
+        }
+    },
+    "categories": {
+        "errorLog": {
+            "appenders": ["fileError"],
+            "level": "error"
+        },
+        "successLog": {
+            "appenders": ["fileSuccess"],
+            "level": "info"
+        },
+        "default": {
+            "appenders": ["console"],
+            "level": "all"
+        }
+    }
+}

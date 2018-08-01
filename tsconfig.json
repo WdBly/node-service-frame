@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2015",
+      "noImplicitAny": true,
+      "moduleResolution": "node",
+      "removeComments":true, //编译时删除注释
+      "sourceMap": false,
+      "outDir": "server/controller/js/",  //输出目录
+    },
+    "include": [
+      "server/controller/ts/"
+    ],
+    "exclude": [
+      "node_modules"
+    ]
+}

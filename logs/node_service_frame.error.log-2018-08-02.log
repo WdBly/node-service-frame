@@ -1,0 +1,422 @@
+[2018-08-02T10:13:46.633] [ERROR] errorLog - TypeError: Cannot read property 'body' of undefined
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:23:29)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+[2018-08-02T10:17:17.916] [ERROR] errorLog - TypeError: Cannot read property 'body' of undefined
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:23:29)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+[2018-08-02T11:38:58.915] [ERROR] errorLog - ReferenceError: checkRuntime is not defined
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:21:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+[2018-08-02T11:39:58.109] [ERROR] errorLog - TypeError: global.checkRuntime is not a function
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:21:12)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+[2018-08-02T11:43:57.681] [ERROR] errorLog - ReferenceError: attr is not defined
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:11:9)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T11:44:21.201] [ERROR] errorLog - Error: [object Object]
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T11:47:03.414] [ERROR] errorLog - ReferenceError: log is not defined
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:37:9)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T11:47:42.619] [ERROR] errorLog - loginController
+[2018-08-02T11:47:42.634] [ERROR] errorLog - Error: [object Object]
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:40:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T11:50:16.990] [ERROR] errorLog - loginController[object Object]
+[2018-08-02T11:50:17.006] [ERROR] errorLog - Error: [object Object]
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T11:51:37.013] [ERROR] errorLog - ReferenceError: attr is not defined
+    at dataCheck (G:/node/node-service-frame/server/check-runtime/index.js:55:24)
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:25:17)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+[2018-08-02T11:52:56.261] [ERROR] errorLog - loginController{"code":60002,"message":"userName 数据类型错误"}
+[2018-08-02T11:52:56.278] [ERROR] errorLog - Error: {"code":60002,"message":"userName 数据类型错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T11:56:10.215] [ERROR] errorLog - ReferenceError: item is not defined
+    at checkType (G:/node/node-service-frame/server/check-runtime/index.js:87:29)
+    at dataCheck (G:/node/node-service-frame/server/check-runtime/index.js:52:45)
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:25:17)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+[2018-08-02T11:56:28.575] [ERROR] errorLog - loginController{"code":60002,"message":"userName 数据类型错误"}
+[2018-08-02T11:56:28.595] [ERROR] errorLog - Error: {"code":60002,"message":"userName 数据类型错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:16:04.577] [ERROR] errorLog - loginController{"code":60002,"message":"userName 数据类型错误"}
+[2018-08-02T13:16:04.579] [ERROR] errorLog - Error: {"code":60002,"message":"userName 数据类型错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:16:44.508] [ERROR] errorLog - loginController{"code":60002,"message":"userName 数据类型错误"}
+[2018-08-02T13:16:44.509] [ERROR] errorLog - Error: {"code":60002,"message":"userName 数据类型错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:17:02.631] [ERROR] errorLog - loginController{"code":60002,"message":"userName 数据类型错误"}
+[2018-08-02T13:17:02.633] [ERROR] errorLog - Error: {"code":60002,"message":"userName 数据类型错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:17:45.559] [ERROR] errorLog - loginController{"code":60002,"message":"userName 数据类型错误"}
+[2018-08-02T13:17:45.575] [ERROR] errorLog - Error: {"code":60002,"message":"userName 数据类型错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:20:47.413] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T13:20:47.427] [ERROR] errorLog - Error: {"code":60003,"message":"userName 数据size错误"}
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:43:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:22:00.138] [ERROR] errorLog - ReferenceError: obj is not defined
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:31:13)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:56:40.408] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T13:56:40.427] [ERROR] errorLog - Error: 500
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:40:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T13:59:08.782] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T13:59:08.804] [ERROR] errorLog - Error: 500
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:40:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T14:01:54.552] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:01:54.572] [ERROR] errorLog - Error: [object Object]
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:41:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T14:03:01.784] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:05:01.794] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:05:47.039] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:07:47.050] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:08:26.295] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:09:31.171] [ERROR] errorLog - loginController{"code":60003,"message":"userName 数据size错误"}
+[2018-08-02T14:09:31.189] [ERROR] errorLog - Error: [object Object]
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:41:15)
+    at Object.loginController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:22:5)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:17)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at G:/node/node-service-frame/server/routers/index.js:38:13
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at G:\node\node-service-frame\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (G:\node\node-service-frame\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+[2018-08-02T14:15:13.533] [ERROR] errorLog - loginController{"code":500,"data":{"code":60003,"message":"userName 数据size错误"},"message":"data error"}
+[2018-08-02T14:16:46.412] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T14:16:49.651] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T14:26:55.270] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T14:28:56.571] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T14:35:57.293] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T14:36:59.958] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T15:51:45.464] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T15:52:00.838] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T15:52:14.234] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T15:52:43.459] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T15:52:46.609] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}
+[2018-08-02T15:53:29.445] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"userName 数据size错误"}

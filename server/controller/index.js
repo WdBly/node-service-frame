@@ -1,7 +1,7 @@
 
-import order_ctrl from "./dist/order-ctrl";
-import pay_ctrl from "./dist/pay-ctrl";
-import user_ctrl from "./dist/user-ctrl";
+import order_ctrl from "./js/order-ctrl.js";
+import pay_ctrl from "./js/pay-ctrl.js";
+import user_ctrl from "./js/user-ctrl.js";
 
 const ctrl = {
     ...order_ctrl,

@@ -1,0 +1,11 @@
+{
+    "header":{
+        "alg": "aes-256-cbc",
+        "typ": "JWT"
+    },
+    "payload":{
+        "iss":"node server",
+        "sub":"jwt authorization"
+    },
+    "secret":"JSONWEBTOKENSECRET"
+}

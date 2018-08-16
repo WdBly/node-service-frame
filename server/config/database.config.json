@@ -1,0 +1,29 @@
+
+{
+    "host":"localhost",
+    "user":"root",
+    "password":"root",
+    "database":"nodeserver",
+    "charset":"UTF8_GENERAL_CI",
+    "connectTimeout":5000
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

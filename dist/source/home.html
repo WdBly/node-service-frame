@@ -7,32 +7,62 @@
     <title>404</title>
 </head>
 <body>
-    <div>404 Not Found asdasd</div>
+    <h1 style="text-align: center;margin: 100px">node server</h1>
 
+    <div id="box" style="padding-left: 150px">
+        <label>
+            userName:
+            <input v-model="userName" style="width: 80%;margin: 20px auto">
+        </label>
+        <br>
+        <label>
+            password :
+            <input type="password" v-model="password" style="width: 80%;margin: 20px auto">
+        </label>
+        
+        <div>
+            <button @click="login">login</button>
+            <button @click="register">register</button>
+        </div>
+    </div>
 
-
-
-
-
-
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.8/vue.min.js"></script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
 
-        window.onload = function (params) {
-            axios.defaults.baseURL = 'http://127.0.0.1:5000';
-            axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
-
-            axios.post('/api/user/login',{
-                username:"weidada",
-                password:123456    
-            })
-            .then(function(response) {
-                console.log(response);
-            });
-        }
-
-
+        var vue = new Vue({
+            el:"#box",
+            data(){
+                return {
+                    userName:"weidada",
+                    password:123123
+                }
+            },
+            methods:{
+                login(){
+                    axios.post('/api/user/login',{
+                        userName:this.userName,
+                        password:this.password    
+                    })
+                    .then(function(response) {
+                        axios.defaults.headers.common['Authorization'] = response.data.data.token;
+                    });
+                },
+                register(){
+                    axios.post('/api/user/register',{
+                        userName:this.userName,
+                        password:this.password     
+                    })
+                    .then(function(response) {
+                        console.log(response);
+                    });
+                }
+            },
+            mounted(){
+                axios.defaults.baseURL = 'http://127.0.0.1:5000';
+                axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
+            }
+        })
     </script>
 </body>
 </html>

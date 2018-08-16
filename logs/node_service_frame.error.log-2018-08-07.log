@@ -1,0 +1,115 @@
+[2018-08-07T10:54:20.278] [ERROR] errorLog - ReferenceError: signature is not defined
+    at _callee$ (G:/node/node-service-frame/server/routers/index.js:33:81)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at authenticationFn (G:\node\node-service-frame\server\routers\index.js:37:21)
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:55:59)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+[2018-08-07T11:05:50.578] [ERROR] errorLog - TypeError: Cannot read property 'succ' of undefined
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:65:43)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-07T11:08:14.336] [ERROR] errorLog - SyntaxError: Unexpected end of JSON input
+    at JSON.parse (<anonymous>)
+    at _callee$ (G:/node/node-service-frame/server/routers/index.js:43:77)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at authenticationFn (G:\node\node-service-frame\server\routers\index.js:51:21)
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:65:59)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-07T11:08:48.221] [ERROR] errorLog - TypeError: Cannot read property 'succ' of undefined
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:66:43)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-07T11:10:55.828] [ERROR] errorLog - TypeError: Cannot read property 'succ' of undefined
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:66:43)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-07T11:29:33.064] [ERROR] errorLog - TypeError: Cannot read property 'err' of undefined
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:67:43)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-07T11:32:19.785] [ERROR] errorLog - ReferenceError: responseJson is not defined
+    at Object.base64UrlDecode (G:/node/node-service-frame/server/util/base64URL.js:35:17)
+    at _callee$ (G:/node/node-service-frame/server/routers/index.js:41:27)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at authenticationFn (G:\node\node-service-frame\server\routers\index.js:51:21)
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:66:59)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-07T11:34:16.855] [ERROR] errorLog - TypeError: Cannot read property 'err' of undefined
+    at _callee3$ (G:/node/node-service-frame/server/routers/index.js:67:43)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-07T15:45:54.332] [ERROR] errorLog - ReferenceError: deSign is not defined
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:46:29)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-07T15:46:34.490] [ERROR] errorLog - TypeError: Cipher data must be a string or a buffer
+    at Cipher.update (crypto.js:170:26)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:40:26)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)

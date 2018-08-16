@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const goPayController = function () {
+const goPayController = function (ctx) {
     console.log("goPayController");
 };
 const pay_ctrl = {

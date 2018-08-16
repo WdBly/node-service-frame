@@ -1,0 +1,264 @@
+[2018-08-06T09:31:09.278] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T09:31:09.280] [ERROR] errorLog - TypeError: ctx.set is not a function
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:44:13)
+    at Object._callee2$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:37:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at Object.<anonymous> (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.registerController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:36:7)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:23)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-06T09:32:22.730] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T09:32:22.747] [ERROR] errorLog - TypeError: ctx.set is not a function
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:47:13)
+    at Object._callee2$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:37:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at Object.<anonymous> (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.registerController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:36:7)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:23)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-06T09:34:16.725] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T09:34:16.742] [ERROR] errorLog - TypeError: ctx.set is not a function
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:47:13)
+    at Object._callee2$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:37:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at Object.<anonymous> (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.registerController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:36:7)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:23)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-06T10:53:43.298] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:53:43.310] [ERROR] errorLog - TypeError: ctx.set is not a function
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:47:13)
+    at Object._callee2$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:37:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at Object.<anonymous> (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.registerController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:36:7)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:23)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-06T10:56:03.698] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:56:03.709] [ERROR] errorLog - TypeError: ctx.set is not a function
+    at checkRuntime (G:/node/node-service-frame/server/check-runtime/index.js:50:13)
+    at Object._callee2$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:37:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at Object.<anonymous> (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12)
+    at Object.registerController (G:/node/node-service-frame/server/controller/js/user-ctrl.js:36:7)
+    at _callee2$ (G:/node/node-service-frame/server/routers/index.js:39:23)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+[2018-08-06T10:58:07.955] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:58:32.123] [ERROR] errorLog - registerController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:59:10.588] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:59:16.456] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:59:25.439] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T10:59:39.305] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T11:00:04.801] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T11:00:36.387] [ERROR] errorLog - TypeError: Unknown encoding: base64URL
+    at stringSlice (buffer.js:597:9)
+    at Buffer.toString (buffer.js:633:10)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:29:63)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:32:12.484] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:33:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:33:15.740] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:35:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:35:55.625] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:35:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:39:56.962] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:34:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:40:47.605] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:32:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:41:06.001] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:35:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T11:42:16.170] [ERROR] errorLog - TypeError: First argument must be a string, Buffer, ArrayBuffer, Array, or array-like object.
+    at Function.Buffer.from (buffer.js:202:9)
+    at new Buffer (buffer.js:158:17)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:35:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T13:24:07.476] [ERROR] errorLog - TypeError: (0 , _base64URL2.default) is not a function
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:31:22)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T15:22:17.077] [ERROR] errorLog - Error: Unknown cipher
+    at new Cipher (crypto.js:143:16)
+    at Object.createCipher (crypto.js:615:10)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:34:33)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T15:23:38.783] [ERROR] errorLog - Error: Unknown cipher
+    at new Cipher (crypto.js:143:16)
+    at Object.createCipher (crypto.js:615:10)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:34:33)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T15:24:07.721] [ERROR] errorLog - Error: Unknown cipher
+    at new Cipher (crypto.js:143:16)
+    at Object.createCipher (crypto.js:615:10)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:34:33)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T15:25:57.531] [ERROR] errorLog - Error: Unknown cipher
+    at new Cipher (crypto.js:143:16)
+    at Object.createCipher (crypto.js:615:10)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:34:33)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T15:27:37.685] [ERROR] errorLog - Error: Unknown cipher
+    at new Cipher (crypto.js:143:16)
+    at Object.createCipher (crypto.js:615:10)
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:34:33)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T15:48:11.421] [ERROR] errorLog - TypeError: _base64URL2.default.base64UrlDncode is not a function
+    at Object._callee$ (G:/node/node-service-frame/server/controller/js/user-ctrl.js:43:31)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:28:13
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+[2018-08-06T17:50:40.396] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T17:50:47.108] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T17:50:56.925] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T17:50:58.539] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T17:50:59.250] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}
+[2018-08-06T17:51:06.677] [ERROR] errorLog - loginController{"code":60003,"data":null,"message":"password 数据size错误"}

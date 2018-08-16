@@ -41,7 +41,7 @@ app.use(clientRouter);
 // api接口
 router(app);
 
-app.listen(process.env.PORT,info => {
+app.listen(process.env.PORT,() => {
     log.info("success");
 });
 

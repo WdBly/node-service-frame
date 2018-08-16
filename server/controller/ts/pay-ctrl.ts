@@ -1,6 +1,6 @@
 
 
-const goPayController = function () {
+const goPayController = function (ctx:string) {
     console.log("goPayController");
 }
 

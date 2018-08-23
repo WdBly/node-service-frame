@@ -30,12 +30,24 @@
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
 
+        // 添加响应拦截器
+        axios.interceptors.response.use(function (res) {
+            if(res.headers["last-access-time"]){
+                axios.defaults.headers.common['Last-Access-Time'] = res.headers["last-access-time"];
+            }
+            return res;
+        }, function (err) {
+            // 对响应错误做点什么
+            return Promise.reject(err);
+        });
+
+
         var vue = new Vue({
             el:"#box",
             data(){
                 return {
                     userName:"weidada",
-                    password:123123
+                    password:123456
                 }
             },
             methods:{
@@ -59,7 +71,14 @@
                 }
             },
             mounted(){
-                axios.defaults.baseURL = 'http://127.0.0.1:5000';
+
+
+
+                axios.get('./base.config.json')
+                .then(function(response) {
+                    axios.defaults.baseURL = response.data.baseURL;
+                });
+
                 axios.defaults.headers.post['Content-Type'] = 'application/x-www-form-urlencoded';
             }
         })

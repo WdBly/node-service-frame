@@ -9,6 +9,8 @@ import views from "koa-views";
 import logger from "koa-logger";
 import log from "./log";
 import clientRouter from "./routers/clientRouter"
+import cors from "koa2-cors";
+import jwtAuth from "./util/jwtAuth.js"
 
 import router from "./routers";
 
@@ -37,6 +39,23 @@ app.use(serverStatic(path.resolve(__dirname,"../dist/")));
 // 第二种是 接口形式的请求 
 // 前端路由
 app.use(clientRouter);
+
+app.use(cors({
+    origin: function(ctx) {
+      if (ctx.url === '/error') {
+        return false;
+      }
+      return '*';
+    },
+    exposeHeaders: ['WWW-Authenticate', 'Server-Authorization','Last-Access-Time'], //必须加上 Last-Access-Time 否则js拿不到
+    maxAge: 5000,
+    credentials: true,
+    allowMethods: ['GET', 'POST', 'DELETE'],
+    allowHeaders: ['Content-Type', 'Authorization', 'Accept','Last-Access-Time'],
+}));
+
+
+app.use(jwtAuth)
 
 // api接口
 router(app);

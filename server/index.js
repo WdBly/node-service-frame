@@ -1,4 +1,3 @@
-
 //服务端 es6 支持 (安装 es-checker插件检测 当前nodejs对es6的支持性)
 
 let fs = require('fs');

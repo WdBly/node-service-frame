@@ -9,7 +9,7 @@ import controller from "../controller"
 async function jwtAuth(ctx, next) {
     let obj = ctx.url.split("/").filter(item=>item).reduce((prev,next) => prev[next],routerTable);
 
-    if(!obj.need_auth){
+    if(!obj || !obj.need_auth){
         await next();
     }else {
 

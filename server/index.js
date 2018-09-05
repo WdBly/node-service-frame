@@ -8,10 +8,8 @@ let babelConfig = JSON.parse(fs.readFileSync('./.babelrc'));
 require("babel-register")(babelConfig);
 
 let server;
-if(process.env.NODE_ENV === "server") {
-    //使用 require可以让 app.js 支持 es6的语法
-    server = require("./app.js");
-}
+//使用 require可以让 app.js 支持 es6的语法
+server = require("./app.js");
 
 module.exports = server;
 

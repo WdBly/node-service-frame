@@ -2,6 +2,13 @@
 import path from "path";
 import Koa from "koa";
 
+import webpack from "webpack";
+import webpack_config from "../webpack/webpack.config.js";
+import webpackDev from "webpack-dev-middleware"
+import webpackHot from "webpack-hot-middleware"
+
+import { devMiddleware, hotMiddleware } from 'koa-webpack-middleware'
+
 //用于解析body中的参数,多用于接口请求,解析后通过this.body获取参数
 import bodyParser from "koa-bodyparser";
 import serverStatic from "koa-static";
@@ -15,6 +22,45 @@ import jwtAuth from "./util/jwtAuth.js"
 import router from "./routers";
 
 const app = new Koa();
+var publicPath;
+if(process.env.NODE_ENV === "production") {
+    publicPath = path.resolve(__dirname,"../dist/dist");
+}else {
+    publicPath = path.resolve(__dirname,"./template");
+
+    var compiler = webpack(webpack_config);
+
+    // var devMiddleware = (compiler, opts) => {
+    //     const middleware = webpackDev(compiler, opts);
+    //     return async (ctx, next) => {
+    //         await middleware(ctx.req, {
+    //             end: (content) => {
+
+    //                 ctx.body = content;
+    //             },
+    //             setHeader: (name, value) => {
+    //                 ctx.set(name, value)
+    //             }
+    //         },next)
+    //     }
+    // }
+
+    // var hotMiddleware = (compiler, opts) => {
+    //     const middleware = webpackHot(compiler, opts);
+    //     return async (ctx, next) => {
+    //         let stream = new PassThrough()
+    //         ctx.body = stream
+    //         await middleware(ctx.req, {
+    //             write: stream.write.bind(stream),
+    //             writeHead: (status, headers) => {
+    //                 ctx.status = status
+    //                 ctx.set(headers)
+    //             }
+    //         }, next)
+    //     }
+        
+    // }
+}
 
 app.use(async (ctx, next) => {
     
@@ -30,15 +76,31 @@ app.use(logger());
 
 app.use(bodyParser());
 
-app.use(views(path.resolve(__dirname, "../dist/")));
-
 // 图片 字体 等带后缀的实体文件可以直接返回
-app.use(serverStatic(path.resolve(__dirname,"../dist/")));
+app.use(serverStatic(path.resolve(__dirname, "../dist/dist")));
+
+app.use(views(publicPath));
+
+if(process.env.NODE_ENV === "development") {
+    app.use(devMiddleware(compiler,{
+        publicPath:"/",
+        stats: {
+            colors: true
+        }
+    }));
+
+    app.use(hotMiddleware(compiler, {
+        // log: console.log,
+        // path: "/__webpack_hmr",
+        // heartbeat: 10 * 1000
+    }))
+}
 
 // 非静态文件 走路由 两种情况 一种是前端有路由 会处理后返回入口文件(如果是服务端渲染则需要额外处理)
 // 第二种是 接口形式的请求 
 // 前端路由
 app.use(clientRouter);
+
 
 app.use(cors({
     origin: function(ctx) {
@@ -59,6 +121,27 @@ app.use(jwtAuth)
 
 // api接口
 router(app);
+
+
+app.use(async (ctx,next)=>{
+    console.log(1);
+    next();
+    console.log(6);
+});
+
+app.use(async (ctx,next)=>{
+    console.log(2);
+    next();
+    console.log(5);
+});
+
+app.use(async (ctx,next)=>{
+    console.log(3);
+    next();
+    console.log(4);
+});
+
+
 
 app.listen(process.env.PORT,() => {
     log.info("success");

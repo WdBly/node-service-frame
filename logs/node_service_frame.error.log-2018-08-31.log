@@ -1,0 +1,473 @@
+[2018-08-31T09:07:18.793] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:07:18.801] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:10:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:07:29.724] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:07:43.025] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:14:46.193] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:18:29.192] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:22:03.506] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T09:22:46.180] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T11:00:17.895] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:10:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+[2018-08-31T11:05:21.796] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+[2018-08-31T11:06:24.217] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee2$ (G:/node/node-service-frame/server/app.js:51:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+[2018-08-31T11:18:03.959] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+[2018-08-31T11:21:17.073] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+[2018-08-31T11:21:17.522] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+[2018-08-31T11:40:00.385] [ERROR] errorLog - { Error: ENOENT: no such file or directory, stat 'G:\node\node-service-frame\dev\index.html'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'G:\\node\\node-service-frame\\dev\\index.html' }
+[2018-08-31T11:40:06.607] [ERROR] errorLog - { Error: ENOENT: no such file or directory, stat 'G:\node\node-service-frame\dev\index.html'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'G:\\node\\node-service-frame\\dev\\index.html' }
+[2018-08-31T11:40:10.293] [ERROR] errorLog - { Error: ENOENT: no such file or directory, stat 'G:\node\node-service-frame\dev\index.html'
+  errno: -4058,
+  code: 'ENOENT',
+  syscall: 'stat',
+  path: 'G:\\node\\node-service-frame\\dev\\index.html' }
+[2018-08-31T11:41:49.599] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at cbs.forEach (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\context.js:52:9)
+[2018-08-31T12:21:14.753] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:35:14)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at clientRoute (G:\node\node-service-frame\server\routers\clientRouter.js:50:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at serve (G:\node\node-service-frame\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2018-08-31T12:21:19.387] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:35:14)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:13:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at clientRoute (G:\node\node-service-frame\server\routers\clientRouter.js:50:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at serve (G:\node\node-service-frame\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2018-08-31T13:47:16.661] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee2$ (G:/node/node-service-frame/server/app.js:51:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+[2018-08-31T14:14:18.726] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee2$ (G:/node/node-service-frame/server/app.js:51:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+[2018-08-31T14:14:18.967] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee2$ (G:/node/node-service-frame/server/app.js:51:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+[2018-08-31T14:14:23.493] [ERROR] errorLog - TypeError: next is not a function
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee2$ (G:/node/node-service-frame/server/app.js:51:15)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+[2018-08-31T14:16:11.238] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:12:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:120:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+[2018-08-31T14:20:21.437] [ERROR] errorLog - TypeError: Cannot read property 'need_auth' of undefined
+    at _callee$ (G:/node/node-service-frame/server/util/jwtAuth.js:15:13)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at jwtAuth (G:\node\node-service-frame\server\util\jwtAuth.js:123:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at cors (G:\node\node-service-frame\node_modules\koa2-cors\dist\index.js:91:15)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+[2018-08-31T15:12:30.856] [ERROR] errorLog - TypeError: Cannot read property 'add' of undefined
+    at G:/node/node-service-frame/server/routers/clientRouter.js:4:75
+    at Array.reduce (<anonymous>)
+    at _callee$ (G:/node/node-service-frame/server/routers/clientRouter.js:4:53)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+    at new F (G:\node\node-service-frame\node_modules\core-js\library\modules\_export.js:36:28)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:14:12
+    at clientRoute (G:\node\node-service-frame\server\routers\clientRouter.js:49:21)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at serve (G:\node\node-service-frame\node_modules\koa-static\index.js:53:15)
+    at <anonymous>
+[2018-08-31T16:12:23.151] [ERROR] errorLog - TypeError: next is not a function
+    at middleware (G:\node\node-service-frame\node_modules\webpack-hot-middleware\middleware.js:33:48)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee$ (G:/node/node-service-frame/server/app.js:35:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+[2018-08-31T16:13:28.152] [ERROR] errorLog - TypeError: next is not a function
+    at middleware (G:\node\node-service-frame\node_modules\webpack-hot-middleware\middleware.js:33:48)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee$ (G:/node/node-service-frame/server/app.js:35:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)
+[2018-08-31T16:13:45.288] [ERROR] errorLog - TypeError: next is not a function
+    at middleware (G:\node\node-service-frame\node_modules\webpack-hot-middleware\middleware.js:33:48)
+    at dispatch (G:\node\node-service-frame\node_modules\koa-compose\index.js:42:32)
+    at goNext (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:16:16)
+    at processRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:64:26)
+    at ready (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:52:12)
+    at handleRequest (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\util.js:168:5)
+    at Promise (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:39:7)
+    at new Promise (<anonymous>)
+    at middleware (G:\node\node-service-frame\node_modules\webpack-dev-middleware\lib\middleware.js:38:12)
+    at _callee$ (G:/node/node-service-frame/server/app.js:35:19)
+    at tryCatch (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:62:40)
+    at Generator.invoke [as _invoke] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:296:22)
+    at Generator.prototype.(anonymous function) [as next] (G:\node\node-service-frame\node_modules\regenerator-runtime\runtime.js:114:21)
+    at step (G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:17:30)
+    at G:\node\node-service-frame\node_modules\babel-runtime\helpers\asyncToGenerator.js:35:14
+    at new Promise (<anonymous>)

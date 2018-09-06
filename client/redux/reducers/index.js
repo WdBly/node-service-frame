@@ -1,4 +1,4 @@
-import homeReduce from "./home.reduce";
+import homeReduce from "./user.reduce";
 
 import { combineReducers } from "redux";
 

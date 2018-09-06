@@ -3,7 +3,7 @@ var path = require('path');
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname, '../');
-var BUILD_PATH = path.resolve(ROOT_PATH, 'dist/dist');
+var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
 
 var PROD_GLOBAL_CONFIG = require('../client/common/config/server.env.js');
 

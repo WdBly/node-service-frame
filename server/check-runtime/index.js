@@ -1,11 +1,11 @@
 
 import log from "../log";
-import responseJson from "../util/responseJson.js";
+import responseJson from "../util/responseJson";
 
 let context;
 
 function checkRuntime(ctx,format,controller,response) {
-
+    
     let value;
 
     for(let attr in format){
@@ -40,6 +40,8 @@ function checkRuntime(ctx,format,controller,response) {
         let json = responseJson(context.code,null,context.message);
         log.error(controller + JSON.stringify(json));
 
+        context = null;
+        
         response.set({
             "Cache-Control":"no-cache",
             "sever":"node koa(2)",
@@ -104,8 +106,8 @@ function checkLength(ctx, length, attr) {
     }
 
     ctxLength = ctx[attr].toString().length;
-    
-    return lengthArr[1] ? (ctxLength >= lengthArr[0] && ctxLength <= lengthArr[1]) :
+
+    return lengthArr[1] ? (ctxLength >= parseInt(lengthArr[0]) && ctxLength <=  parseInt(lengthArr[1])) :
            ctxLength >= lengthArr[0]
 }
 

@@ -4,9 +4,6 @@ import Koa from "koa";
 
 import webpack from "webpack";
 import webpack_config from "../webpack/webpack.config.js";
-import webpackDev from "webpack-dev-middleware"
-import webpackHot from "webpack-hot-middleware"
-
 import { devMiddleware, hotMiddleware } from 'koa-webpack-middleware'
 
 //用于解析body中的参数,多用于接口请求,解析后通过this.body获取参数
@@ -22,45 +19,8 @@ import jwtAuth from "./util/jwtAuth.js"
 import router from "./routers";
 
 const app = new Koa();
-var publicPath;
-if(process.env.NODE_ENV === "production") {
-    publicPath = path.resolve(__dirname,"../dist/dist");
-}else {
-    publicPath = path.resolve(__dirname,"./template");
-
-    var compiler = webpack(webpack_config);
-
-    // var devMiddleware = (compiler, opts) => {
-    //     const middleware = webpackDev(compiler, opts);
-    //     return async (ctx, next) => {
-    //         await middleware(ctx.req, {
-    //             end: (content) => {
-
-    //                 ctx.body = content;
-    //             },
-    //             setHeader: (name, value) => {
-    //                 ctx.set(name, value)
-    //             }
-    //         },next)
-    //     }
-    // }
-
-    // var hotMiddleware = (compiler, opts) => {
-    //     const middleware = webpackHot(compiler, opts);
-    //     return async (ctx, next) => {
-    //         let stream = new PassThrough()
-    //         ctx.body = stream
-    //         await middleware(ctx.req, {
-    //             write: stream.write.bind(stream),
-    //             writeHead: (status, headers) => {
-    //                 ctx.status = status
-    //                 ctx.set(headers)
-    //             }
-    //         }, next)
-    //     }
-        
-    // }
-}
+var publicPath = path.resolve(__dirname,"../dist");
+var compiler = webpack(webpack_config);
 
 app.use(async (ctx, next) => {
     
@@ -77,7 +37,7 @@ app.use(logger());
 app.use(bodyParser());
 
 // 图片 字体 等带后缀的实体文件可以直接返回
-app.use(serverStatic(path.resolve(__dirname, "../dist/dist")));
+app.use(serverStatic(path.resolve(__dirname, "../dist")));
 
 app.use(views(publicPath));
 

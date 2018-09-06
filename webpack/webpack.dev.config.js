@@ -5,7 +5,7 @@ var ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname, '../');
 var CLIENT_PATH = path.resolve(ROOT_PATH, 'client');
-var DEV_PATH = path.resolve(ROOT_PATH, 'dev');
+var DEV_PATH = path.resolve(ROOT_PATH, '/dist');
 
 var DEV_GLOBAL_CONFIG = require('../client/common/config/dev.env.js');
 
@@ -27,15 +27,22 @@ module.exports = {
         rules: [
             {
                 test: /\.less$/,
-                use: ExtractTextPlugin.extract({
+                use: ["css-hot-loader"].concat(ExtractTextPlugin.extract({
                     fallback: "style-loader",
-                    use: ['css-loader', {
-                        loader: 'less-loader',
-                        options: {
-                            sourceMap: true
-                        }
-                    }]
-                })
+                    use: [
+                        {
+                            loader: "css-loader",
+                            options: {
+                                sourceMap: true,
+                                importLoaders: 1
+                            }
+                        }, {
+                            loader: "postcss-loader"
+                        },
+                        "less-loader"
+                    ]
+                })),
+                exclude: /node_modules/
             },
             {
                 test: /\.css$/,

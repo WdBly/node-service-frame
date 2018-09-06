@@ -3,18 +3,7 @@ export default [
     {
         path: "/",
         exact: true,
-        component: Containers.Home
-    },
-    {
-        path: "/home",
-        exact: true,
-        component: Containers.Home
-    },
-    {
-        path: "/article",
-        exact: true,
-        component: Containers.Article,
-        is_redirect: true
+        component: Containers.Login
     },
     {
         path: "/login",
@@ -24,9 +13,5 @@ export default [
     {
         path: "/register",
         component: Containers.Register
-    },
-    {
-        path: "/article/add",
-        component: Containers.AddArticle
     }
 ]

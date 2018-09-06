@@ -2,9 +2,9 @@
 import checkRuntime from "../../check-runtime";
 import model from "../../model";
 import jwtConfing from "../../config/jwt.config.json";
-import base64 from "../../util/base64URL.js"
+import base64 from "../../util/base64URL"
 import crypto from "crypto";
-import responseJson from "../../util/responseJson.js";
+import responseJson from "../../util/responseJson";
 
 const format = {
     userName:{  
@@ -20,8 +20,10 @@ const format = {
 }
 
 const loginController = async function (ctx,body) {
+    
     var context = checkRuntime(body,format,"loginController",ctx);
 
+    console.log(context);
     if(!context){
         return;
     }

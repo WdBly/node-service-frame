@@ -18,7 +18,7 @@ class RoutesComponent extends Component {
                         )
                     })
                 }
-                <Redirect from='*' to='/home' />
+                <Redirect from='*' to='/login' />
             </Switch>
         );
     }

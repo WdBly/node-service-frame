@@ -15,7 +15,7 @@ module.exports = {
     entry:{
         index:[
             "eventsource-polyfill",
-            "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=10000",
+            "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=10000&reload=true",
             path.resolve(CLIENT_PATH, 'app.jsx')
         ],
         vendor: ['react-router-dom', 'react', 'react-dom']

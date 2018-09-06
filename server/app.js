@@ -18,9 +18,9 @@ import jwtAuth from "./util/jwtAuth.js"
 
 import router from "./routers";
 
-const app = new Koa();
-var publicPath = path.resolve(__dirname,"../dist");
-var compiler = webpack(webpack_config);
+var app = new Koa(),
+    publicPath,
+    compiler = webpack(webpack_config);
 
 app.use(async (ctx, next) => {
     
@@ -38,6 +38,12 @@ app.use(bodyParser());
 
 // 图片 字体 等带后缀的实体文件可以直接返回
 app.use(serverStatic(path.resolve(__dirname, "../dist")));
+
+if(process.env.NODE_ENV === "development") {
+    publicPath = path.resolve(__dirname,"./template");
+}else {
+    publicPath = path.resolve(__dirname,"../dist");
+}
 
 app.use(views(publicPath));
 

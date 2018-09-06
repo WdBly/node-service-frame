@@ -57,23 +57,19 @@
     "react-dom": "^16.4.2",
     "react-redux": "^5.0.7",
     "react-router-dom": "^4.3.1",
-    "redux": "^4.0.0",
     "redux-promise-middleware": "^5.1.1",
     "redux-thunk": "^2.3.0",
     "style-loader": "^0.23.0",
-    "webpack": "^4.17.1",
-    "webpack-dev-middleware": "^3.2.0"
+    "webpack": "^4.17.1"
   },
   "devDependencies": {
     "babel-preset-react": "^6.24.1",
     "babel-preset-react-hmre": "^1.1.1",
     "copy-webpack-plugin": "^4.5.2",
     "eventsource-polyfill": "^0.9.6",
-    "koa-webpack": "^1.0.0",
     "koa-webpack-middleware": "^1.0.7",
     "postcss-pxtorem": "^4.0.1",
     "webpack-cli": "^3.1.0",
-    "webpack-hot-middleware": "^2.22.3",
     "webpack-merge": "^4.1.4"
   }
 }

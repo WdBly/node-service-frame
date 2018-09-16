@@ -57,7 +57,7 @@ var baseConfig = {
         new HtmlWebpackPlugin({
             favicon: path.resolve(ROOT_PATH, 'favicon.ico'),
             filename:"index.html",
-            template: path.resolve(path.resolve(ROOT_PATH, 'server/template'), 'index.html'), //source
+            template: path.resolve(path.resolve(ROOT_PATH, 'server/template'), 'index.templete.html'), //source
             chunks: ['index', 'vendor'],
             hash: true
         })

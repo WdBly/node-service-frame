@@ -1,5 +1,6 @@
 
 import path from "path";
+import fs from "fs"
 import Koa from "koa";
 
 import webpack from "webpack";
@@ -48,6 +49,22 @@ if(process.env.NODE_ENV === "development") {
 app.use(views(publicPath));
 
 if(process.env.NODE_ENV === "development") {
+
+    compiler.plugin("emit",(comilation,callback) => {
+        const assets = comilation.assets;
+        let file, data;
+        Object.keys(assets).forEach(key => {
+            if(key.match(/\.html$/)){
+                file = path.resolve(__dirname,"./template/index.html");
+                data = assets[key].source();
+                fs.writeFileSync(file,data);
+            }
+        });
+
+        callback();
+    })
+
+
     app.use(devMiddleware(compiler,{
         publicPath:"/",
         stats: {

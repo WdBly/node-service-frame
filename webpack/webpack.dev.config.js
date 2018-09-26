@@ -2,6 +2,7 @@ var webpack = require('webpack');
 var path = require('path');
 var fs = require("fs");
 var ExtractTextPlugin = require('extract-text-webpack-plugin');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname, '../');
 var CLIENT_PATH = path.resolve(ROOT_PATH, 'client');
@@ -53,6 +54,13 @@ module.exports = {
     plugins: [
         new webpack.DefinePlugin(DEV_GLOBAL_CONFIG),
         new webpack.HotModuleReplacementPlugin(), // 热替换
-        new ExtractTextPlugin('[name].bundle.css')
+        new ExtractTextPlugin('[name].bundle.css'),
+        new HtmlWebpackPlugin({
+            favicon: path.resolve(ROOT_PATH, 'favicon.ico'),
+            filename:"index.html",
+            template: path.resolve(path.resolve(ROOT_PATH, 'server/template'), 'index.templete.html'), //source
+            chunks: ['index', 'vendor'],
+            hash: true
+        })
     ]
 };

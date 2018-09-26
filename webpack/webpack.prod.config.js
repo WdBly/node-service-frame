@@ -6,7 +6,7 @@ var ROOT_PATH = path.resolve(__dirname, '../');
 var BUILD_PATH = path.resolve(ROOT_PATH, 'dist');
 
 var PROD_GLOBAL_CONFIG = require('../client/common/config/server.env.js');
-
+var HtmlWebpackPlugin = require('html-webpack-plugin');
 module.exports = {
     entry: {
         index: path.resolve(ROOT_PATH, 'client/app.jsx'),
@@ -51,36 +51,13 @@ module.exports = {
         //     }
         // }),
         new webpack.DefinePlugin(PROD_GLOBAL_CONFIG),
-        new ExtractTextPlugin('[name].bundle.css')
-    ],
-    optimization: {
-        runtimeChunk: {
-            name: 'manifest'
-        },
-        splitChunks:{
-            chunks: 'async',
-            minSize: 30000,
-            minChunks: 1,
-            maxAsyncRequests: 5,
-            maxInitialRequests: 3,
-            name: false,
-            cacheGroups: {
-                vendor: {
-                    name: 'vendor',
-                    chunks: 'initial',
-                    priority: -10,
-                    reuseExistingChunk: false,
-                    test: /node_modules\/(.*)\.js/
-                },
-                styles: {
-                    name: 'styles',
-                    test: /\.(less|css)$/,
-                    chunks: 'all',
-                    minChunks: 1,
-                    reuseExistingChunk: true,
-                    enforce: true
-                }
-            }
-        }
-    }
+        new ExtractTextPlugin('[name].bundle.css'),
+        new HtmlWebpackPlugin({
+            favicon: path.resolve(ROOT_PATH, 'favicon.ico'),
+            filename:"index.html",
+            template: path.resolve(path.resolve(ROOT_PATH, 'server/template'), 'index.templete.html'), //source
+            chunks: ['index', 'vendor'],
+            hash: true
+        })
+    ]
 };

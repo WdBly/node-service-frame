@@ -3,7 +3,6 @@
 var webpack = require('webpack');
 var path = require('path');
 var webpackMerge = require('webpack-merge');
-var HtmlWebpackPlugin = require('html-webpack-plugin');
 var CopyWebpackPlugin = require('copy-webpack-plugin');
 
 var ROOT_PATH = path.resolve(__dirname, '../');
@@ -53,14 +52,7 @@ var baseConfig = {
     plugins: [
         new CopyWebpackPlugin([
             {from: path.resolve(CLIENT_PATH, 'common/img'), to: 'img'}
-        ]),
-        new HtmlWebpackPlugin({
-            favicon: path.resolve(ROOT_PATH, 'favicon.ico'),
-            filename:"index.html",
-            template: path.resolve(path.resolve(ROOT_PATH, 'server/template'), 'index.templete.html'), //source
-            chunks: ['index', 'vendor'],
-            hash: true
-        })
+        ])
     ]
 };
 

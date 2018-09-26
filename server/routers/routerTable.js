@@ -13,6 +13,13 @@ const routerTable = {
                 method:"POST",
                 need_auth:true
             }
+        },
+        article:{
+            "getArticleList":{
+                ctrl:"articleListController",
+                method:"GET",
+                need_auth:true
+            }
         }
     }
 }

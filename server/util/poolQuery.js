@@ -23,7 +23,7 @@ const query = function (option) {
 }
 
 pool.on('error', function(err) {
-    console.log(err.code,123132); 
+    console.log(err.code); 
 });
   
 

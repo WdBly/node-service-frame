@@ -13,5 +13,9 @@ export default [
     {
         path: "/register",
         component: Containers.Register
+    },
+    {
+        path: "/article",
+        component: Containers.Article
     }
 ]

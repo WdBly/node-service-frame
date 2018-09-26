@@ -10,7 +10,7 @@ var PROD_GLOBAL_CONFIG = require('../client/common/config/server.env.js');
 module.exports = {
     entry: {
         index: path.resolve(ROOT_PATH, 'client/app.jsx'),
-        vendor: ['react-router-dom', 'react', 'react-dom']
+        vendor: ['react-router-dom', 'react', 'react-dom','react-redux']
     },
     output: {
         path: BUILD_PATH
@@ -54,12 +54,31 @@ module.exports = {
         new ExtractTextPlugin('[name].bundle.css')
     ],
     optimization: {
-        splitChunks: {
+        runtimeChunk: {
+            name: 'manifest'
+        },
+        splitChunks:{
+            chunks: 'async',
+            minSize: 30000,
+            minChunks: 1,
+            maxAsyncRequests: 5,
+            maxInitialRequests: 3,
+            name: false,
             cacheGroups: {
-                commons: {
-                    name: "vendor",
-                    chunks: "initial",
-                    minChunks: 2
+                vendor: {
+                    name: 'vendor',
+                    chunks: 'initial',
+                    priority: -10,
+                    reuseExistingChunk: false,
+                    test: /node_modules\/(.*)\.js/
+                },
+                styles: {
+                    name: 'styles',
+                    test: /\.(less|css)$/,
+                    chunks: 'all',
+                    minChunks: 1,
+                    reuseExistingChunk: true,
+                    enforce: true
                 }
             }
         }

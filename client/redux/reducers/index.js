@@ -1,9 +1,9 @@
-import homeReduce from "./user.reduce";
+import allReduce from "./all.reduce";
 
 import { combineReducers } from "redux";
 
 const rootReducer = combineReducers({
-    homeReduce
+    allReduce
 });
 
 export default rootReducer;

@@ -18,7 +18,7 @@ module.exports = {
             "webpack-hot-middleware/client?path=/__webpack_hmr&timeout=10000&reload=true",
             path.resolve(CLIENT_PATH, 'app.jsx')
         ],
-        vendor: ['react-router-dom', 'react', 'react-dom']
+        vendor: ['react-router-dom', 'react', 'react-dom','react-redux']
     },
     output: {
         path: DEV_PATH

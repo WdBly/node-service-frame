@@ -11,7 +11,7 @@ const routerTable = {
             "register":{
                 ctrl:"registerController",
                 method:"POST",
-                need_auth:true
+                need_auth:false
             }
         },
         article:{

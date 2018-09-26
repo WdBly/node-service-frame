@@ -4,3 +4,4 @@ node_modules
 logs
 dist
 server/template/index.html
+server/config/database.config.json

@@ -1,6 +1,6 @@
 FROM node:8.11.1
-COPY . /node-server-frame
-WORKDIR /node-server-frame
+VOLUME ["/node-service-frame","/node-service-frame"]
+WORKDIR /node-service-frame
 RUN npm install pm2@2.10.4 -g 
-RUN ["npm", "install"]
+RUN npm install
 EXPOSE 5000/tcp

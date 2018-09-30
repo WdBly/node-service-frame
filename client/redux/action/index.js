@@ -11,7 +11,7 @@ const userLogin = (from,getArticleList) => {
                 localStorage.setItem("Authorization",res.data.data.token);
                 localStorage.setItem("userName",from.userName);
 
-                getArticleList();
+                getArticleList && getArticleList();
                 
                 dispatch({
                     type: "login",

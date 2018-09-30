@@ -5,3 +5,4 @@ logs
 dist
 server/template/index.html
 server/config/database.config.json
+client/common/config/localhost.json

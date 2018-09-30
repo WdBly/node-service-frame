@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "cross-env NODE_ENV=production PORT=5000  pm2 start server --name node_server --watch",
+    "server": "cross-env NODE_ENV=production PORT=5000  pm2 start server --name node_server",
     "start": "cross-env NODE_ENV=development PORT=5000 node server",
     "build": "cross-env NODE_ENV=production webpack --mode production --config webpack/webpack.config.js --progress",
     "watch": "tsc"

@@ -28,21 +28,27 @@ module.exports = {
         rules: [
             {
                 test: /\.less$/,
-                use: ["css-hot-loader"].concat(ExtractTextPlugin.extract({
+                // use: ["css-hot-loader"].concat(ExtractTextPlugin.extract({
+                //     fallback: "style-loader",
+                //     use: [
+                //         {
+                //             loader: "css-loader",
+                //             options: {
+                //                 sourceMap: true,
+                //                 importLoaders: 1
+                //             }
+                //         }, {
+                //             loader: "postcss-loader"
+                //         },
+                //         "less-loader"
+                //     ]
+                // })),
+                use: ExtractTextPlugin.extract({
                     fallback: "style-loader",
-                    use: [
-                        {
-                            loader: "css-loader",
-                            options: {
-                                sourceMap: true,
-                                importLoaders: 1
-                            }
-                        }, {
-                            loader: "postcss-loader"
-                        },
-                        "less-loader"
-                    ]
-                })),
+                    use: ['css-loader', {
+                        loader: 'less-loader'
+                    }]
+                }),
                 exclude: /node_modules/
             },
             {

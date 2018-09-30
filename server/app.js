@@ -37,12 +37,11 @@ app.use(logger());
 
 app.use(bodyParser());
 
-// 图片 字体 等带后缀的实体文件可以直接返回
-app.use(serverStatic(path.resolve(__dirname, "../dist")));
-
 if(process.env.NODE_ENV === "development") {
     publicPath = path.resolve(__dirname,"./template");
 }else {
+    // 图片 字体 等带后缀的实体文件可以直接返回
+    app.use(serverStatic(path.resolve(__dirname, "../dist")));
     publicPath = path.resolve(__dirname,"../dist");
 }
 

@@ -4,6 +4,20 @@ building a node service on the server side, including various basic services and
 
 ### 关于
 
+node-service-frame 是基于react和koa2的项目。
+- [x] 开发环境搭建
+- [x] webpack4
+- [x] 热更新
+- [x] mysql
+- [x] 日志收集
+- [x] jwt认证
+- [x] cors跨域支持
+- [x] 动态参数检查
+- [x] 支持更灵活的路由组配置
+- [x] docker部署
+- [x] 服务端渲染
+
+
 ### 安装
 
 git clone https://github.com/WdBly/node-service-frame.git
@@ -464,6 +478,4 @@ if(process.env.NODE_ENV === "development") {
 
 
 
-#### 结合react
-
-[直接看项目吧](https://github.com/WdBly/node-service-frame/blob/master/client/app.jsx)
+[推荐博客](http://www.wddsss.com)

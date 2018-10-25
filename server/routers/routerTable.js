@@ -18,7 +18,7 @@ const routerTable = {
             "getArticleList":{
                 ctrl:"articleListController",
                 method:"GET",
-                need_auth:true
+                need_auth:false
             }
         }
     }

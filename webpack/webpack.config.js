@@ -46,6 +46,10 @@ var baseConfig = {
                 },
                 include: path.resolve(ROOT_PATH, 'client'),
                 exclude: /node_modules/
+            },
+            {
+                test: /\.html$/,
+                loader: "html-loader"
             }
         ]
     },

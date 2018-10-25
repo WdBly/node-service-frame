@@ -1,4 +1,3 @@
-
 import path from "path";
 import fs from "fs"
 import Koa from "koa";
@@ -45,7 +44,7 @@ if(process.env.NODE_ENV === "development") {
     publicPath = path.resolve(__dirname,"../dist");
 }
 
-app.use(views(publicPath));
+app.use(views(publicPath, {map: {html: "ejs"}}));
 
 if(process.env.NODE_ENV === "development") {
 
@@ -72,9 +71,6 @@ if(process.env.NODE_ENV === "development") {
     }));
 
     app.use(hotMiddleware(compiler, {
-        // log: console.log,
-        // path: "/__webpack_hmr",
-        // heartbeat: 10 * 1000
     }))
 }
 
@@ -103,27 +99,6 @@ app.use(jwtAuth)
 
 // api接口
 router(app);
-
-
-app.use(async (ctx,next)=>{
-    console.log(1);
-    next();
-    console.log(6);
-});
-
-app.use(async (ctx,next)=>{
-    console.log(2);
-    next();
-    console.log(5);
-});
-
-app.use(async (ctx,next)=>{
-    console.log(3);
-    next();
-    console.log(4);
-});
-
-
 
 app.listen(process.env.PORT,() => {
     log.info("success");

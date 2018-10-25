@@ -1,10 +1,11 @@
 import React from "react";
-import { render } from "react-dom";
+import { render, hydrate } from "react-dom";
 import { Provider } from "react-redux";
 import { BrowserRouter } from "react-router-dom";
 
 import RoutesComponent from "./router";
-import store from "./redux/store";
+import configureStore from "./redux/store";
+const store = configureStore(window.REDUX_STATE);
 
 import "./common/less/style.less";
 
@@ -14,7 +15,7 @@ if (module.hot) {
     module.hot.accept()
 }
 
-render(
+hydrate(
     <Provider store={store}>
         <BrowserRouter>
             <RoutesComponent />

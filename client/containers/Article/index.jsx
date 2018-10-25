@@ -19,7 +19,7 @@ class ArticleComponent extends Component {
     }
 
     componentDidMount(){
-        this.fetchAarticleList();
+        this.props.articleList.length || this.fetchAarticleList();
     }
 
     fetchAarticleList = () => {
@@ -35,7 +35,7 @@ class ArticleComponent extends Component {
     }
 
     render() {
-
+        
         let list =  this.props.articleList && this.props.articleList.map(item => {
             return(
                 <div key={item.Id} className="single-article">

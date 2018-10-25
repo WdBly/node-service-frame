@@ -1,6 +1,6 @@
 
 const initState = {
-    userName:localStorage.getItem("userName") || "",
+    userName: typeof(window) !== "undefined" ? localStorage.getItem("userName") || "" : "",
     defaultUserName:"weidada",
     defaultPassword:123456,
     articleList:[]
@@ -19,6 +19,11 @@ export default function allReduce(state = initState, {type: TYPE, ...action}) {
                 userName: action.data.userName
             };
         case "article":
+            console.log({
+                ...state,
+                articleList: action.data.article
+            });
+            
             return {
                 ...state,
                 articleList: action.data.article

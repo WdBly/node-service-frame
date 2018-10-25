@@ -4,9 +4,17 @@ import thunkMiddleware from 'redux-thunk';
 import promiseMiddleware from 'redux-promise-middleware';
 import reducer from '../reducers';
 
-const store = applyMiddleware(
-	thunkMiddleware,
-	promiseMiddleware()
-)(createStore)(reducer,{});
+const configureStore = preloadedState => {
+	const store = createStore(
+        reducer,
+        preloadedState,
+		applyMiddleware(
+			thunkMiddleware,
+			promiseMiddleware()
+		)
+	);
+	
+    return store;
+};
 
-export default store;
+export default configureStore;

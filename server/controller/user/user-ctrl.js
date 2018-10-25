@@ -23,7 +23,6 @@ const loginController = async function (ctx,body) {
     
     var context = checkRuntime(body,format,"loginController",ctx);
 
-    console.log(context);
     if(!context){
         return;
     }

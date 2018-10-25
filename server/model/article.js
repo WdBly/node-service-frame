@@ -12,8 +12,6 @@ const articleModel = async function() {
             sql:'select * from ?? limit 10',
             values:[table[0]]
         });
-
-        console.log(articleList);
         
         return responseJson(50000,articleList,"获取文章列表成功");
 
